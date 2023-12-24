@@ -1,0 +1,106 @@
+## hostname: 
+ibsen
+## hostname en my-python.sif: 
+ibsen
+
+## cat /etc/os-release: 
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+
+## cat /etc/os-release en my-python.sif: 
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+## pwd: 
+/home/alumno24/lab6-singularity/singularity
+## pwd en my-python.sif: 
+/home/alumno24/lab6-singularity/singularity
+
+## ls: 
+manejando_singularity.sh
+my-python.sif
+output_manejando_singularity.txt
+## ls en my-python.sif: 
+manejando_singularity.sh
+my-python.sif
+output_manejando_singularity.txt
+
+## python --version: 
+Python 3.7.7 :: Intel(R) Corporation
+## python --version en my-python.sif: 
+Python 3.11.7
+
+## ../source/pi.ipynb 10**5: 
+
+ 	 Computing pi in serial: 
+
+	 For 10000000 trials, pi = 3.141239
+
+4.16 s ± 12.1 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/o arrays: 
+
+	 For 10000000 trials, pi = 3.140872
+
+7.42 s ± 5.23 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/ arrays: 
+
+	 For 10000000 trials, pi = 3.141535
+
+176 ms ± 1.36 ms per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+ 	 Computing pi with numba: 
+
+	 For 10000000 trials, pi = 3.142342
+
+67.6 ms ± 345 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+## /app/pi.ipynb 10**5: 
+
+ 	 Computing pi in serial: 
+
+	 For 10000000 trials, pi = 3.141804
+
+4.15 s ± 12.6 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/o arrays: 
+
+	 For 10000000 trials, pi = 3.141416
+
+7.58 s ± 36.2 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/ arrays: 
+
+	 For 10000000 trials, pi = 3.141948
+
+175 ms ± 426 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+ 	 Computing pi with numba: 
+
+	 For 10000000 trials, pi = 3.142224
+
+68.5 ms ± 481 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
