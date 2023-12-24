@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 
+module load singularity
 
 echo "## hostname: "
 hostname
